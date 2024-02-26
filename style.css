@@ -1,3 +1,22 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+h1 {
+    font-size: 100px;
+    font-style: italic;
+    text-align: center;
+}
+
+.menu {
+    background-color: violet;
+    color: brown;
+}
+
+p {
+    font-style: italic;
+}
+
+img {
+    width: 200px;
+}
