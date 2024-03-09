@@ -2,21 +2,91 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+
+.hlavicka {
+    background-image: url("fotky/jeřáby.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #fefae0;
+    color: black;
+}
+
+h1, h2 {
+    text-align: left;
+}
+
 h1 {
-    font-size: 100px;
-    font-style: italic;
     text-align: center;
+    font-size: 80px;
+    color: #fefae0;
+    padding: 0px 180px;
+}
+
+h2 {
+    font-size: 50px;
 }
 
 .menu {
-    background-color: violet;
-    color: brown;
+    background-color: #fefae0;
+    margin: 0px 180px;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 20px 30px;
 }
 
 p {
+    font-style: normal;
+    color: black;
+    padding-right: 380px;
+}
+
+.omne img {
+    width: 300px;
+    border-radius:5%;
+    float: right;
+    margin: 0 30px 30px 0;
+}
+
+.omne {
+    overflow: auto;
+}
+
+.fotogalerie img {
+    width:33%;
+}
+
+section{
+    padding:50px 50px;
+    background-color: #faedcd;
+    margin: 0px 180px;
+}
+
+a {
+    color: #dda15e;
+}
+
+a:hover {
+    color: #606c38;
     font-style: italic;
 }
 
-img {
-    width: 200px;
+a:link, a:visited  {
+    text-decoration: none;
+}
+  
+footer {
+    font-size: 15px;
+    margin-left: 230px;
 }
